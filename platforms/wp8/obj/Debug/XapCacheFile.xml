@@ -1,0 +1,22 @@
+﻿<xapCache source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2015-02-04 2:35:33 PM">
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\obj\Debug\com.si14studios.notefancy.dll" archivePath="com.si14studios.notefancy.dll" lastWriteTime="2015-02-04 2:35:31 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\config.xml" archivePath="config.xml" lastWriteTime="2015-02-04 2:33:53 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\www\cordova.js" archivePath="www\cordova.js" lastWriteTime="2015-02-04 2:33:53 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\www\cordova_plugins.js" archivePath="www\cordova_plugins.js" lastWriteTime="2015-02-04 2:33:53 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="2015-02-04 2:33:53 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\www\img\logo.png" archivePath="www\img\logo.png" lastWriteTime="2015-02-04 2:33:53 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\www\index.html" archivePath="www\index.html" lastWriteTime="2015-02-04 2:33:53 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="2015-02-04 2:33:53 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="2015-02-02 11:06:52 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Images\appbar.close.rest.png" archivePath="Images\appbar.close.rest.png" lastWriteTime="2015-02-02 11:06:52 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Images\appbar.feature.video.rest.png" archivePath="Images\appbar.feature.video.rest.png" lastWriteTime="2015-02-02 11:06:52 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Images\appbar.next.rest.png" archivePath="Images\appbar.next.rest.png" lastWriteTime="2015-02-02 11:06:52 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="2015-02-02 11:06:52 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Images\appbar.stop.rest.png" archivePath="Images\appbar.stop.rest.png" lastWriteTime="2015-02-02 11:06:52 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\VERSION" archivePath="VERSION" lastWriteTime="2015-02-02 11:06:52 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2015-02-02 11:06:52 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2015-02-04 2:35:32 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2015-02-02 11:06:52 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="2015-02-02 11:06:52 PM" />
+  <file source="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2015-02-04 2:35:33 PM" />
+</xapCache>
