@@ -1,2 +1,2 @@
-C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\AndroidManifest.xml : \
-C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\AndroidManifest.xml \
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\AndroidManifest.xml : \
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\AndroidManifest.xml \
