@@ -15,3 +15,18 @@
  * 
  */
 
+
+h1 {
+	font-family: 'Pacifico', cursive;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: blue;
+}
+
+.event .received {
+    display: none;
+}
