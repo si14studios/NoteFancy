@@ -1,2 +1,2 @@
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\CordovaLib\ant-build\AndroidManifest.xml : \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\CordovaLib\AndroidManifest.xml \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\CordovaLib\ant-build\AndroidManifest.xml : \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\CordovaLib\AndroidManifest.xml \

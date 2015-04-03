@@ -1,41 +1,122 @@
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\CordovaApp.ap_ \
- : D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\drawable\icon.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\drawable-hdpi\icon.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\drawable-land-hdpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\drawable-land-ldpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\drawable-land-mdpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\drawable-land-xhdpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\drawable-ldpi\icon.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\drawable-mdpi\icon.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\drawable-port-hdpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\drawable-port-ldpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\drawable-port-mdpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\drawable-port-xhdpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\drawable-xhdpi\icon.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\values\strings.xml \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\res\xml\config.xml \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\res\drawable\icon.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\res\drawable-hdpi\icon.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\res\drawable-land-hdpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\res\drawable-land-ldpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\res\drawable-land-mdpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\res\drawable-land-xhdpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\res\drawable-ldpi\icon.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\res\drawable-mdpi\icon.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\res\drawable-port-hdpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\res\drawable-port-ldpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\res\drawable-port-mdpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\res\drawable-port-xhdpi\screen.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\res\drawable-xhdpi\icon.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\assets\www \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\assets\_where-is-www.txt \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\assets\www\cordova.js \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\assets\www\cordova_plugins.js \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\assets\www\css \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\assets\www\img \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\assets\www\index.html \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\assets\www\js \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\assets\www\css\index.css \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\assets\www\img\logo.png \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\assets\www\js\index.js \
-D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\android\ant-build\AndroidManifest.xml \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\CordovaApp.ap_ \
+ : C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\drawable\icon.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\drawable-hdpi\icon.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\drawable-land-hdpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\drawable-land-ldpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\drawable-land-mdpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\drawable-land-xhdpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\drawable-ldpi\icon.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\drawable-mdpi\icon.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\drawable-port-hdpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\drawable-port-ldpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\drawable-port-mdpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\drawable-port-xhdpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\drawable-xhdpi\icon.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\values\strings.xml \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\res\xml\config.xml \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\res\drawable\icon.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\res\drawable-hdpi\icon.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\res\drawable-land-hdpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\res\drawable-land-ldpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\res\drawable-land-mdpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\res\drawable-land-xhdpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\res\drawable-ldpi\icon.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\res\drawable-mdpi\icon.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\res\drawable-port-hdpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\res\drawable-port-ldpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\res\drawable-port-mdpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\res\drawable-port-xhdpi\screen.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\res\drawable-xhdpi\icon.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\_where-is-www.txt \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\cordova.js \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\cordova_plugins.js \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\css \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\img \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\index.html \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\js \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\css\font-awesome.min.css \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\css\index.css \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\css\ink.min.css \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\fontawesome-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\fontawesome-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\fontawesome-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\FontAwesome.otf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_slab \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-black-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-black-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-black-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-blackitalic-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-blackitalic-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-blackitalic-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-bold-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-bold-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-bold-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-bolditalic-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-bolditalic-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-bolditalic-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-italic-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-italic-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-italic-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-light-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-light-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-light-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-lightitalic-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-lightitalic-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-lightitalic-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-medium-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-medium-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-medium-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-mediumitalic-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-mediumitalic-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-mediumitalic-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-regular-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-regular-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-regular-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-thin-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-thin-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-thin-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-thinitalic-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-thinitalic-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto\roboto-thinitalic-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-bold-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-bold-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-bold-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-bolditalic-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-bolditalic-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-bolditalic-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-italic-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-italic-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-italic-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-light-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-light-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-light-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-lightitalic-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-lightitalic-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-lightitalic-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-regular-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-regular-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_condensed\robotocondensed-regular-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_slab\robotoslab-bold-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_slab\robotoslab-bold-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_slab\robotoslab-bold-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_slab\robotoslab-light-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_slab\robotoslab-light-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_slab\robotoslab-light-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_slab\robotoslab-regular-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_slab\robotoslab-regular-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_slab\robotoslab-regular-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_slab\robotoslab-thin-webfont.eot \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_slab\robotoslab-thin-webfont.ttf \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts\Roboto_slab\robotoslab-thin-webfont.woff \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\img\logo.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\img\NFlogo.png \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\js\autoload.js \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\js\holder.js \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\js\index.js \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\js\ink-all.min.js \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\js\jquery.min.js \
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\ant-build\AndroidManifest.xml \
