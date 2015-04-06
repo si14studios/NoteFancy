@@ -41,9 +41,9 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-        $('body').append('test');
 
         console.log('Received Event: ' + id);
+        alert('made it');
     }
 };
 
