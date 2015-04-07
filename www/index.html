@@ -66,12 +66,18 @@
             <h3 id="subtitle">notes to suit your fancy</h3>
 
             <!-- Search Bar -->
-            <form id="searchbar">Search<br>
-              <input type="text" name="seach">
-              <br>
+            <form id="searchbar" class="ink-form">
+                <div class="control-group">
+                    <div class="control prepend-symbol">
+                        <span>
+                            <i class="fa fa-search"></i>
+                            <input type="text" name="in-search" id="in-search" placeholder="search">
+                        </span>
+                    </div>
+                </div>
             </form>
 
-            <!-- Masonry -->
+            <!-- Masonry (Currrently Testing)-->
             <div id="grid" class="js-masonry" data-masonry-options='{ "itemSelector": ".gitem" }'>
                 <div class="gitem i1"><img src="http://placehold.it/50x60"></img></div>
                 <div class="gitem i3"><img src="http://placehold.it/50x55"></img></div>

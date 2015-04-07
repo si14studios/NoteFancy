@@ -80,16 +80,10 @@ body {
 	margin-top: -10px;
 }
 
-#container {
-    margin: 12px;
-    background-color: gray;
-}
-
 #searchbar {
-	text-align: center;
-
-	/*margin-top: 100px;
-	padding-top: 50px;*/
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #deviceready {
@@ -109,6 +103,7 @@ body {
     display: none;
 }
 
+/* All for the sake of testing, will be removed */
 #grid {
 		width: 302px;
 		border: 1px solid black;
