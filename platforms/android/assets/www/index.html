@@ -54,18 +54,46 @@
     </head>
     <body>
         <div id="app">
+            <!-- Navigation -->
             <nav class="ink-navigation">
               <ul class="menu horizontal white">
                 <li><a href="#">Log In</a></li>
                 <li><a href="#">About Us</a></li>
             </nav>
-            <h1 id="title">Note Fancy&#174</h1>
 
+            <!-- Headers -->
+            <h1 id="title">Note Fancy</h1>
             <h3 id="subtitle">notes to suit your fancy</h3>
-            <form id="searchbar">Search<br>
-              <input type="text" name="seach">
-              <br>
+
+            <!-- Search Bar -->
+            <form id="searchbar" class="ink-form">
+                <div class="control-group">
+                    <div class="control prepend-symbol">
+                        <span>
+                            <i class="fa fa-search"></i>
+                            <input type="text" name="in-search" id="in-search" placeholder="search">
+                        </span>
+                    </div>
+                </div>
             </form>
+
+            <!-- Masonry (Currrently Testing)-->
+            <div id="grid" class="js-masonry" data-masonry-options='{ "itemSelector": ".gitem" }'>
+                <div class="gitem i1"><img src="http://placehold.it/50x60"></img></div>
+                <div class="gitem i3"><img src="http://placehold.it/50x55"></img></div>
+                <div class="gitem i3"><img src="http://placehold.it/50x55"></img></div>
+                <div class="gitem i1"><img src="http://placehold.it/50x60"></img></div>
+                <div class="gitem i2"><img src="http://placehold.it/50x65"></img></div>
+                <div class="gitem i2"><img src="http://placehold.it/50x65"></img></div>
+                <div class="gitem i1"><img src="http://placehold.it/50x60"></img></div>
+                <div class="gitem i4"><img src="http://placehold.it/50x50"></img></div>
+                <div class="gitem i1"><img src="http://placehold.it/50x60"></img></div>
+                <div class="gitem i1"><img src="http://placehold.it/50x60"></img></div>
+                <div class="gitem i1"><img src="http://placehold.it/50x60"></img></div>
+
+            </div>
+
+            <!-- Status Indicator -->
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>

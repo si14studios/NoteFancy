@@ -30,9 +30,9 @@ body {
 #title {
 	font-family: 'Pacifico', cursive;
 	text-align: center;
-	font-size: 500%;
+	font-size: 400%;
 
-	margin: 10px;
+	margin: 0px;
 	padding: 0px;
 }
 /* CRAZY MEDIA STUFF THAT WILL BE USED LATER ON
@@ -76,27 +76,50 @@ body {
 #subtitle {
 	font-family: 'Amatic SC', cursive, bold;
 	text-align: center;
-	font-size: 200%;
-
-	margin-top: 20px;
-	padding-top: 10px;
-}
-
-#container {
-    margin: 12px;
-    background-color: gray;
+	font-size: 150%;
+	margin-top: -10px;
 }
 
 #searchbar {
-	text-align: center;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 20px;
+}
 
-	margin-top: 100px;
-	padding-top: 50px;
+/* All for the sake of testing, will be removed */
+#grid {
+		width: 302px;
+		border: 1px solid black;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 10px;
+}
+
+.gitem {
+		width: 50px;
+		border: 1px solid black;
+}
+
+.gitem.i1 {
+		height: 60px;
+}
+
+.gitem.i2 {
+		height: 65px;
+}
+
+.gitem.i3 {
+		height: 55px;
+}
+
+.gitem.i4 {
+	height: 50px;
 }
 
 #deviceready {
 	/*CHANGE THIS LATER*/
-	position:fixed;
+	position:absolute;
   left:0px;
   bottom:0px;
   height:30px;
