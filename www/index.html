@@ -54,19 +54,24 @@
     </head>
     <body>
         <div id="app">
+            <!-- Navigation -->
             <nav class="ink-navigation">
               <ul class="menu horizontal white">
                 <li><a href="#">Log In</a></li>
                 <li><a href="#">About Us</a></li>
             </nav>
-            <h1 id="title">Note Fancy</h1>
 
+            <!-- Headers -->
+            <h1 id="title">Note Fancy</h1>
             <h3 id="subtitle">notes to suit your fancy</h3>
+
+            <!-- Search Bar -->
             <form id="searchbar">Search<br>
               <input type="text" name="seach">
               <br>
             </form>
 
+            <!-- Masonry -->
             <div id="grid" class="js-masonry" data-masonry-options='{ "itemSelector": ".gitem" }'>
                 <div class="gitem i1"><img src="http://placehold.it/50x60"></img></div>
                 <div class="gitem i3"><img src="http://placehold.it/50x55"></img></div>
@@ -82,6 +87,7 @@
 
             </div>
 
+            <!-- Status Indicator -->
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
