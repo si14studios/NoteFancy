@@ -21,7 +21,7 @@ body {
 }
 
 .ink-navigation {
-	
+
 }
 
 #title {
@@ -114,19 +114,15 @@ body {
 	height: 50px;
 }
 
-#deviceready {
-	/*CHANGE THIS LATER*/
-	position:absolute;
-  left:0px;
-  bottom:0px;
-  height:30px;
-  width:100%;
+/*
+#deviceready li{
+	position: relative;
+	left: 0px;
+	bottom: -500px;
 
-	text-align: center;
-	margin: auto;
-	padding: auto;
+	list-style: none;
 }
-
+*/
 .event .received {
     display: none;
 }
