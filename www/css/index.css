@@ -16,8 +16,15 @@
  */
 
 body {
-	margin: 0;
-	padding: 0;
+	margin: 20px;
+	padding: 10px;
+}
+
+.ink-navigation {
+	/* Maybe border
+	border-bottom-style: solid;
+	border-width: 2px;
+	*/
 }
 
 #title {
@@ -28,13 +35,51 @@ body {
 	margin: 10px;
 	padding: 0px;
 }
+/* CRAZY MEDIA STUFF THAT WILL BE USED LATER ON
+@media (max-device-width: 1080px) {
+	#title {
+		font-family: 'Pacifico', cursive;
+		text-align: center;
+		font-size: 300%;
+
+		margin: 10px;
+		padding: 0px;
+	}
+	#subtitle {
+		font-family: 'Amatic SC', cursive, bold;
+		text-align: center;
+		font-size: 100%;
+
+		margin-top: 10px;
+	}
+}
+
+@media (min-device-width: 1081px) {
+	#title {
+		font-family: 'Pacifico', cursive;
+		text-align: center;
+		font-size: 500%;
+
+		margin: 10px;
+		padding: 0px;
+	}
+	#subtitle {
+		font-family: 'Amatic SC', cursive, bold;
+		text-align: center;
+		font-size: 200%;
+
+		margin-top: 10px;
+	}
+}
+*/
 
 #subtitle {
 	font-family: 'Amatic SC', cursive, bold;
 	text-align: center;
 	font-size: 200%;
 
-	margin-top: 10px;
+	margin-top: 20px;
+	padding-top: 10px;
 }
 
 #container {
@@ -44,6 +89,9 @@ body {
 
 #searchbar {
 	text-align: center;
+
+	margin-top: 100px;
+	padding-top: 50px;
 }
 
 #deviceready {
