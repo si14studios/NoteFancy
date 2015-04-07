@@ -32,7 +32,7 @@ body {
 	text-align: center;
 	font-size: 400%;
 
-	margin: 10px;
+	margin: 0px;
 	padding: 0px;
 }
 /* CRAZY MEDIA STUFF THAT WILL BE USED LATER ON
@@ -84,23 +84,7 @@ body {
 	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
-}
-
-#deviceready {
-	/*CHANGE THIS LATER*/
-	position:fixed;
-  left:0px;
-  bottom:0px;
-  height:30px;
-  width:100%;
-
-	text-align: center;
-	margin: auto;
-	padding: auto;
-}
-
-.event .received {
-    display: none;
+	line-height: 20px;
 }
 
 /* All for the sake of testing, will be removed */
@@ -131,4 +115,21 @@ body {
 
 .gitem.i4 {
 	height: 50px;
+}
+
+#deviceready {
+	/*CHANGE THIS LATER*/
+	position:absolute;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+
+	text-align: center;
+	margin: auto;
+	padding: auto;
+}
+
+.event .received {
+    display: none;
 }
