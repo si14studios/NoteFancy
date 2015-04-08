@@ -86,7 +86,6 @@ body {
 
 /* All for the sake of testing, will be removed */
 #grid {
-		width: 302px;
 		border: 1px solid black;
 		margin-right: auto;
 		margin-left: auto;
@@ -94,7 +93,7 @@ body {
 }
 
 .gitem {
-		width: 50px;
+		width: 100px;
 		border: 1px solid black;
 }
 
