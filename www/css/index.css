@@ -84,7 +84,9 @@ body {
 	line-height: 20px;
 }
 
-/* All for the sake of testing, will be removed */
+/* Styling is poopy, but I think it gets the point across
+ * Will eventually be moved to its own CSS file
+*/
 #grid {
 		border: 1px solid black;
 		margin-right: auto;
@@ -92,25 +94,25 @@ body {
 		margin-top: 10px;
 }
 
-.gitem {
-		width: 100px;
-		border: 1px solid black;
+.note_preview {
+		width: 250px;
+		border: 1px solid blue;
+		margin-right: auto;
+		margin-left: auto;
 }
 
-.gitem.i1 {
-		height: 60px;
+.n_title {
+		font-weight: bold;
 }
 
-.gitem.i2 {
-		height: 65px;
+.n_author {
+		border-bottom: 1px solid black;
+		font-size: 12px;
+		font-style: italic;
 }
 
-.gitem.i3 {
-		height: 55px;
-}
-
-.gitem.i4 {
-	height: 50px;
+.n_text_preview {
+		font-weight: lighter;
 }
 
 /*
