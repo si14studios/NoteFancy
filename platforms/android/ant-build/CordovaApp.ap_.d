@@ -36,7 +36,6 @@ C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\fonts \
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\img \
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\index.html \
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\js \
-C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\www.iml \
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\css\font-awesome.min.css \
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\css\index.css \
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\android\assets\www\css\ink.min.css \

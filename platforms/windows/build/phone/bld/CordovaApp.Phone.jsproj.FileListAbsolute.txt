@@ -133,4 +133,3 @@ C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\Pack
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\fonts\Roboto_slab\robotoslab-regular-webfont.woff
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\fonts\Roboto_slab\robotoslab-thin-webfont.woff
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\fonts\FontAwesome.otf
-C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\www.iml

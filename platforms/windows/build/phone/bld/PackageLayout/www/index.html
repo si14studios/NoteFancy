@@ -21,43 +21,75 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <title>NoteFancy: Notes to Suit your Fancy</title>
-        
+        <title>Note Fancy&#174</title>
+
 		<!-- Custom css -->
-		<link rel="stylesheet" type="text/css" href="css/index.css" />
-		
+		<link rel="stylesheet" type="text/css" href="css/index.css?1" />
+
 		<!-- Ink css -->
 		<link rel="stylesheet" type="text/css" href="css/ink.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 
 		<!-- Google Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-		
+    <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+
 		<!-- Cordova javascript -->
-        <script type="text/javascript" src="cordova.js"></script>
-		
+    <script type="text/javascript" src="cordova.js"></script>
+
 		<!-- Ink javascript -->
 		<script type="text/javascript" src="js/holder.js"></script>
 		<script type="text/javascript" src="js/ink-all.min.js"></script>
 		<script type="text/javascript" src="js/autoload.js"></script>
-		
+
 		<!-- JQuery -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 
         <!-- Masonry javascript -->
         <script type="text/javascript" src="js/masonry.js"></script>
-		
+
 		<!-- Custom javascript -->
         <script type="text/javascript" src="js/index.js"></script>
 
     </head>
     <body>
-        <div class="container">
-            <h1 id="title">NoteFancy</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+        <div id="app">
+            <!-- Navigation -->
+            <nav class="ink-navigation">
+              <ul class="menu horizontal white">
+                <li><a href="#">Log In</a></li>
+                <li><a href="#">About Us</a></li>
+            </nav>
+
+            <!-- Headers -->
+            <h1 id="title">Note Fancy</h1>
+            <h3 id="subtitle">notes to suit your fancy</h3>
+
+            <!-- Search Bar -->
+            <form id="searchbar" class="ink-form">
+                <div class="control-group">
+                    <div class="control prepend-symbol">
+                        <span>
+                            <i class="fa fa-search"></i>
+                            <input type="text" name="in-search" id="in-search" placeholder="search">
+                        </span>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Masonry (Currrently Testing)-->
+            <div id="grid" class="js-masonry small-100 madium-70 large-70 xlarge-70" data-masonry-options='{ "itemSelector": ".note_preview" }'>
+
             </div>
+
+            <!-- Status Indicator aka things we prob won't need
+            <div id="deviceready" class="blink">
+                <ul>
+                <li class="event listening">Connecting to Device</li>
+                <li class="event received">Device is Ready</li>
+                </ul>
+            </div>
+          -->
         </div>
     </body>
-</html>
+<html>

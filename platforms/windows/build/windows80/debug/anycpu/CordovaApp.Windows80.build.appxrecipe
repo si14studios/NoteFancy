@@ -294,9 +294,6 @@
     <AppxPackagedFile Include="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\www\www.iml">
-      <PackagePath>www\www.iml</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
     </AppxPackagedFile>

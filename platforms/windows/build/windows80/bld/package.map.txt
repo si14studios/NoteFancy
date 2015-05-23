@@ -91,6 +91,5 @@
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\www\fonts\Roboto_slab\robotoslab-thin-webfont.woff" "www\fonts\Roboto_slab\robotoslab-thin-webfont.woff"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\www\fonts\FontAwesome.otf" "www\fonts\FontAwesome.otf"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\www\index.html" "www\index.html"
-"C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\www\www.iml" "www\www.iml"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\config.xml" "config.xml"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\windows80\debug\anycpu\resources.pri" "resources.pri"
