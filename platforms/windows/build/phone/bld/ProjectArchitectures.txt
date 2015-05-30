@@ -1,1 +1,0 @@
-C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\CordovaApp.Phone.jsproj;neutral

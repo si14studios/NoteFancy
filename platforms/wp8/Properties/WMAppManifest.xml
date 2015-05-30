@@ -4,7 +4,7 @@
     <Languages xmlns="">
         <Language code="en-US" />
     </Languages>
-    <App Author="NoteFancy author" BitsPerPixel="32" Description="Apache Cordova for Windows Phone" Genre="apps.normal" ProductID="{3b2dbf00-ab73-11e4-b351-ab439050e062}" Publisher="NoteFancy" PublisherID="{db093ed5-53b1-45f7-af72-751e8f36ab80}" RuntimeType="Silverlight" Title="NoteFancy" Version="0.0.1" xmlns="">
+    <App Author="NoteFancy Author" BitsPerPixel="32" Description="Apache Cordova for Windows Phone" Genre="apps.normal" ProductID="{5376dc20-071e-11e5-84bb-bd2d264b478b}" Publisher="NoteFancy Publisher" PublisherID="{db093ed5-53b1-45f7-af72-751e8f36ab80}" RuntimeType="Silverlight" Title="NoteFancy" Version="0.0.1" xmlns="">
         <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
         <Capabilities>
             <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
@@ -14,12 +14,12 @@
             <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
         </Tasks>
         <Tokens>
-            <PrimaryToken TaskName="_default" TokenID="NoteFancyToken">
+            <PrimaryToken TaskName="_default" TokenID="NoteFancy">
                 <TemplateFlip>
                     <SmallImageURI IsRelative="true" IsResource="false">Background.png</SmallImageURI>
                     <Count>0</Count>
                     <BackgroundImageURI IsRelative="true" IsResource="false">Background.png</BackgroundImageURI>
-                    <Title>NoteFancy</Title>
+                    <Title>HelloCordova</Title>
                     <BackContent />
                     <BackBackgroundImageURI />
                     <BackTitle />
