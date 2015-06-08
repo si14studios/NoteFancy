@@ -17,7 +17,7 @@
 
 body {
 	margin: 20px;
-	padding: 10px;
+	padding: 5px;
 }
 
 .ink-navigation {
@@ -29,8 +29,9 @@ body {
 	text-align: center;
 	font-size: 400%;
 
-	margin: 0px;
-	padding: 0px;
+	margin: 10px;
+	padding: 10px;
+	padding-bottom: 0px;
 }
 /* CRAZY MEDIA STUFF THAT WILL BE USED LATER ON
 @media (max-device-width: 1080px) {
@@ -78,10 +79,11 @@ body {
 }
 
 #searchbar {
-	width: 300px;
+	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
 	line-height: 20px;
+	padding: 30px;
 }
 
 /* Styling is poopy, but I think it gets the point across
