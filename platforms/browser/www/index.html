@@ -21,7 +21,8 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <title>Note Fancy&#174</title>
+        <meta name="google-signin-client_id" content="302886424414-okrk6c1pb8hg3ehuq62k0k1hp4qlsfai.apps.googleusercontent.com">
+        <title>Note Fancy</title>
 
 		<!-- Custom css -->
 		<link rel="stylesheet" type="text/css" href="css/index.css?1" />
@@ -45,11 +46,14 @@
 		<!-- JQuery -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 
-        <!-- Masonry javascript -->
-        <script type="text/javascript" src="js/masonry.js"></script>
+    <!-- Masonry javascript -->
+    <script type="text/javascript" src="js/masonry.js"></script>
+
+    <!-- Oauth2 JQuery Script -->
+    <script type="text/javascript" src="js/cordova.oauth2.js"></script>
 
 		<!-- Custom javascript -->
-        <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 
     </head>
     <body>
@@ -57,8 +61,13 @@
             <!-- Navigation -->
             <nav class="ink-navigation">
               <ul class="menu horizontal white">
+<<<<<<< Updated upstream
                 <li><a href="#">Log In</a></li>
                 <li><a href="http://i.imgur.com/6RHUwpk.jpg">About Us</a></li>
+=======
+                <li><a href="#" id="login">Log In</a></li>
+                <li><a href="#" id="about">About Us</a></li>
+>>>>>>> Stashed changes
             </nav>
 
             <!-- Headers -->
@@ -91,5 +100,8 @@
             </div>
           -->
         </div>
+
+        <!-- Google Stuff -->
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
     </body>
 <html>

@@ -26,19 +26,45 @@
           '<div class="n_author">by ' + curr.n_author + '</div>' +
           '<div class="n_text_preview">' + curr.n_note_preview + '</div>' +
           '</div>');
-
       }
  };
 
  $( document ).ready(function() {
-   $('#grid').preview_panel([
-       {n_title: "Lorem Ipsum Dolor", n_author: "Camille Wells", n_note_preview: "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "},
-       {n_title: "Sit Amet", n_author: "Gwendolyn Nichols", n_note_preview: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
-       {n_title: "Consectetur Adipiscing", n_author: "Doreen Harrington", n_note_preview: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"},
-       {n_title: "Sed Do Eiusmod", n_author: "Laurie Vega", n_note_preview: "accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"},
-   ]);
- });
 
+   document.addEventListener("deviceready", function(){
+        //alert("Device is indeed ready");
+        console.log('Device Ready');
+
+        $('#grid').preview_panel([
+           {n_title: "Lorem Ipsum Dolor", n_author: "Camille Wells", n_note_preview: "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "},
+           {n_title: "Sit Amet", n_author: "Gwendolyn Nichols", n_note_preview: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
+           {n_title: "Consectetur Adipiscing", n_author: "Doreen Harrington", n_note_preview: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"},
+           {n_title: "Sed Do Eiusmod", n_author: "Laurie Vega", n_note_preview: "accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"},
+        ]);
+
+        $('#login').click(function(e) {
+          e.preventDefault();
+          $.oauth2({
+              auth_url: 'https://accounts.google.com/o/oauth2/auth',           // required
+              response_type: 'token',      // required  - "code"/"token"
+              token_url: '',          // required for response_type ="code"
+              logout_url: 'https://accounts.google.com/logout',         // recommended if available
+              client_id: '302886424414-okrk6c1pb8hg3ehuq62k0k1hp4qlsfai.apps.googleusercontent.com',          // required
+              client_secret: '',      // required for response_type ="code"
+              redirect_uri: 'http://localhost',       // required - any dummy url http://www.yourcompany.com
+              other_params: {scope: 'profile'}        // optional params object for scope, state, ...
+          }, function(token, response){
+                alert('success');
+          }, function(error, response){
+                alert('error');
+          });
+        });
+
+   },true);
+});
+
+
+/**
 var app = {
     // Application Constructor
     initialize: function() {
@@ -62,14 +88,18 @@ var app = {
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var listeningElement = $('.listening');
-        var receivedElement = $('.received');
-
-        listeningElement.css('display', 'none');
-        receivedElement.css('display', 'block');
-
         console.log('Received Event: ' + id);
+
+        navigator.notification.alert(
+            'You are the winner!',  // message
+            function() {
+
+            },         // callback
+            'Game Over',            // title
+            'Done'                  // buttonName
+        );
     }
 };
 
 app.initialize();
+**/
