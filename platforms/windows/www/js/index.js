@@ -37,7 +37,15 @@ var scopes = "https://www.googleapis.com/auth/plus.login "
  $( document ).ready(function() {
 
    document.addEventListener("deviceready", function(){
-        //alert("Device is indeed ready");
+      var app = document.URL.indexOf( 'http://' ) === -1 && document.URL.indexOf( 'https://' ) === -1;
+      if ( app ) {
+          // Running in an App
+          var redirect = "http://localhost";
+      } else {
+          // Running in a Browser
+          var redirect = "http://notefancy.com";
+      }
+
         $('#grid').preview_panel([
            {n_title: "Lorem Ipsum Dolor", n_author: "Camille Wells", n_note_preview: "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "},
            {n_title: "Sit Amet", n_author: "Gwendolyn Nichols", n_note_preview: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
@@ -57,7 +65,7 @@ var scopes = "https://www.googleapis.com/auth/plus.login "
               logout_url: 'https://accounts.google.com/logout',         // recommended if available
               client_id: '302886424414-okrk6c1pb8hg3ehuq62k0k1hp4qlsfai.apps.googleusercontent.com',          // required
               client_secret: '',      // required for response_type ="code"
-              redirect_uri: 'http://localhost',       // required - any dummy url http://www.yourcompany.com
+              redirect_uri: redirect,       // required - any dummy url http://www.yourcompany.com
               other_params: {scope: scopes}        // optional params object for scope, state, ...
 
           // everything is successful, commense witchcraft
