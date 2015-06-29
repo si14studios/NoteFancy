@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="com.si14studios.notefancy" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="config.xml" uri="ms-resource://com.si14studios.notefancy/Files/config.xml">
+				<Candidate type="Path">
+					<Value>config.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="images">
+				<NamedResource name="SplashScreen.png" uri="ms-resource://com.si14studios.notefancy/Files/images/SplashScreen.png"/>
+				<NamedResource name="SplashScreenPhone.png" uri="ms-resource://com.si14studios.notefancy/Files/images/SplashScreenPhone.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\SplashScreenPhone.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://com.si14studios.notefancy/Files/images/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square150x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square30x30Logo.png" uri="ms-resource://com.si14studios.notefancy/Files/images/Square30x30Logo.png"/>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://com.si14studios.notefancy/Files/images/Square310x310Logo.png"/>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://com.si14studios.notefancy/Files/images/Square44x44Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square44x44Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square70x70Logo.png" uri="ms-resource://com.si14studios.notefancy/Files/images/Square70x70Logo.png"/>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://com.si14studios.notefancy/Files/images/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://com.si14studios.notefancy/Files/images/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://com.si14studios.notefancy/Files/images/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Wide310x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="www">
+				<NamedResource name="cordova.js" uri="ms-resource://com.si14studios.notefancy/Files/www/cordova.js">
+					<Candidate type="Path">
+						<Value>www\cordova.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="cordova_plugins.js" uri="ms-resource://com.si14studios.notefancy/Files/www/cordova_plugins.js">
+					<Candidate type="Path">
+						<Value>www\cordova_plugins.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="index.html" uri="ms-resource://com.si14studios.notefancy/Files/www/index.html">
+					<Candidate type="Path">
+						<Value>www\index.html</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="css">
+					<NamedResource name="font-awesome.min.css" uri="ms-resource://com.si14studios.notefancy/Files/www/css/font-awesome.min.css">
+						<Candidate type="Path">
+							<Value>www\css\font-awesome.min.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="index.css" uri="ms-resource://com.si14studios.notefancy/Files/www/css/index.css">
+						<Candidate type="Path">
+							<Value>www\css\index.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ink.min.css" uri="ms-resource://com.si14studios.notefancy/Files/www/css/ink.min.css">
+						<Candidate type="Path">
+							<Value>www\css\ink.min.css</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="fonts">
+					<NamedResource name="fontawesome-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/fontawesome-webfont.eot">
+						<Candidate type="Path">
+							<Value>www\fonts\fontawesome-webfont.eot</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="fontawesome-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/fontawesome-webfont.ttf">
+						<Candidate type="Path">
+							<Value>www\fonts\fontawesome-webfont.ttf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="fontawesome-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/fontawesome-webfont.woff">
+						<Candidate type="Path">
+							<Value>www\fonts\fontawesome-webfont.woff</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FontAwesome.otf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/FontAwesome.otf">
+						<Candidate type="Path">
+							<Value>www\fonts\FontAwesome.otf</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="Roboto">
+						<NamedResource name="roboto-black-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-black-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-black-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-black-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-black-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-black-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-black-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-black-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-black-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-blackitalic-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-blackitalic-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-blackitalic-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-blackitalic-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-blackitalic-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-blackitalic-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-blackitalic-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-blackitalic-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-blackitalic-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-bold-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-bold-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-bold-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-bold-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-bold-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-bold-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-bold-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-bold-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-bold-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-bolditalic-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-bolditalic-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-bolditalic-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-bolditalic-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-bolditalic-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-bolditalic-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-bolditalic-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-bolditalic-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-bolditalic-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-italic-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-italic-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-italic-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-italic-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-italic-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-italic-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-italic-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-italic-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-italic-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-light-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-light-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-light-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-light-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-light-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-light-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-light-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-light-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-light-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-lightitalic-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-lightitalic-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-lightitalic-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-lightitalic-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-lightitalic-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-lightitalic-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-lightitalic-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-lightitalic-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-lightitalic-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-medium-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-medium-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-medium-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-medium-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-medium-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-medium-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-medium-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-medium-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-medium-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-mediumitalic-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-mediumitalic-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-mediumitalic-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-mediumitalic-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-mediumitalic-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-mediumitalic-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-mediumitalic-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-mediumitalic-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-mediumitalic-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-regular-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-regular-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-regular-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-regular-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-regular-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-regular-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-regular-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-regular-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-regular-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-thin-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-thin-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-thin-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-thin-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-thin-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-thin-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-thin-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-thin-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-thin-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-thinitalic-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-thinitalic-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-thinitalic-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-thinitalic-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-thinitalic-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-thinitalic-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="roboto-thinitalic-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto/roboto-thinitalic-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto\roboto-thinitalic-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="Roboto_condensed">
+						<NamedResource name="robotocondensed-bold-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-bold-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-bold-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-bold-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-bold-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-bold-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-bold-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-bold-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-bold-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-bolditalic-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-bolditalic-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-bolditalic-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-bolditalic-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-bolditalic-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-bolditalic-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-bolditalic-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-bolditalic-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-bolditalic-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-italic-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-italic-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-italic-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-italic-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-italic-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-italic-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-italic-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-italic-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-italic-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-light-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-light-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-light-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-light-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-light-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-light-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-light-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-light-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-light-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-lightitalic-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-lightitalic-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-lightitalic-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-lightitalic-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-lightitalic-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-lightitalic-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-lightitalic-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-lightitalic-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-lightitalic-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-regular-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-regular-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-regular-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-regular-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-regular-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-regular-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotocondensed-regular-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_condensed/robotocondensed-regular-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_condensed\robotocondensed-regular-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="Roboto_slab">
+						<NamedResource name="robotoslab-bold-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_slab/robotoslab-bold-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_slab\robotoslab-bold-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotoslab-bold-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_slab/robotoslab-bold-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_slab\robotoslab-bold-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotoslab-bold-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_slab/robotoslab-bold-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_slab\robotoslab-bold-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotoslab-light-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_slab/robotoslab-light-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_slab\robotoslab-light-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotoslab-light-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_slab/robotoslab-light-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_slab\robotoslab-light-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotoslab-light-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_slab/robotoslab-light-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_slab\robotoslab-light-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotoslab-regular-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_slab/robotoslab-regular-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_slab\robotoslab-regular-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotoslab-regular-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_slab/robotoslab-regular-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_slab\robotoslab-regular-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotoslab-regular-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_slab/robotoslab-regular-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_slab\robotoslab-regular-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotoslab-thin-webfont.eot" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_slab/robotoslab-thin-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_slab\robotoslab-thin-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotoslab-thin-webfont.ttf" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_slab/robotoslab-thin-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_slab\robotoslab-thin-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="robotoslab-thin-webfont.woff" uri="ms-resource://com.si14studios.notefancy/Files/www/fonts/Roboto_slab/robotoslab-thin-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\Roboto_slab\robotoslab-thin-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="img">
+					<NamedResource name="logo.png" uri="ms-resource://com.si14studios.notefancy/Files/www/img/logo.png">
+						<Candidate type="Path">
+							<Value>www\img\logo.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NFlogo.png" uri="ms-resource://com.si14studios.notefancy/Files/www/img/NFlogo.png">
+						<Candidate type="Path">
+							<Value>www\img\NFlogo.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="js">
+					<NamedResource name="autoload.js" uri="ms-resource://com.si14studios.notefancy/Files/www/js/autoload.js">
+						<Candidate type="Path">
+							<Value>www\js\autoload.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="cordova.oauth2.js" uri="ms-resource://com.si14studios.notefancy/Files/www/js/cordova.oauth2.js">
+						<Candidate type="Path">
+							<Value>www\js\cordova.oauth2.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="holder.js" uri="ms-resource://com.si14studios.notefancy/Files/www/js/holder.js">
+						<Candidate type="Path">
+							<Value>www\js\holder.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="index.js" uri="ms-resource://com.si14studios.notefancy/Files/www/js/index.js">
+						<Candidate type="Path">
+							<Value>www\js\index.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ink-all.min.js" uri="ms-resource://com.si14studios.notefancy/Files/www/js/ink-all.min.js">
+						<Candidate type="Path">
+							<Value>www\js\ink-all.min.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.min.js" uri="ms-resource://com.si14studios.notefancy/Files/www/js/jquery.min.js">
+						<Candidate type="Path">
+							<Value>www\js\jquery.min.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="masonry.js" uri="ms-resource://com.si14studios.notefancy/Files/www/js/masonry.js">
+						<Candidate type="Path">
+							<Value>www\js\masonry.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
