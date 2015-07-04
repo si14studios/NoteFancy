@@ -217,4 +217,7 @@
         <PostBuildEvent>
         </PostBuildEvent>
     </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="Plugins\cordova-plugin-inappbrowser\InAppBrowser.cs" />
+    </ItemGroup>
 </Project>

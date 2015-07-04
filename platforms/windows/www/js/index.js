@@ -20,6 +20,16 @@ var CLIENT_ID = "302886424414-okrk6c1pb8hg3ehuq62k0k1hp4qlsfai.apps.googleuserco
 var scopes = "https://www.googleapis.com/auth/plus.login "
            + "https://www.googleapis.com/auth/plus.me";
 
+window.onload = function() {
+    //alert(getUrlVars().length);
+    if (getUrlVars()['access_token']) {
+        // store token in local storage here
+
+        var token = window.location.href.split("access_token=")[1];
+        alert('meeee: ' + token);
+    }
+}
+
 // [{n_title: "", n_author: "", n_text_preview: ""}]
 // will eventually be moved to its own JS file, as a JQuery plugin
  $.fn.preview_panel = function(args) {
@@ -37,14 +47,20 @@ var scopes = "https://www.googleapis.com/auth/plus.login "
  $( document ).ready(function() {
 
    document.addEventListener("deviceready", function(){
+     //var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+try {
+     //window.open = cordova.InAppBrowser.open;
       var app = document.URL.indexOf( 'http://' ) === -1 && document.URL.indexOf( 'https://' ) === -1;
       if ( app ) {
           // Running in an App
           var redirect = "http://localhost";
       } else {
           // Running in a Browser
-          var redirect = "http://notefancy.com";
+          var redirect = window.location.href;
       }
+    } catch(e) {
+      alert('error: ' + e);
+    }
 
         $('#grid').preview_panel([
            {n_title: "Lorem Ipsum Dolor", n_author: "Camille Wells", n_note_preview: "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "},
@@ -56,7 +72,7 @@ var scopes = "https://www.googleapis.com/auth/plus.login "
         // launch when button is pressed
         $('#login').click(function(e) {
           e.preventDefault();
-
+          try {
           // OAuth2 Sign in stuff
           $.oauth2({
               auth_url: 'https://accounts.google.com/o/oauth2/auth',           // required
@@ -66,47 +82,63 @@ var scopes = "https://www.googleapis.com/auth/plus.login "
               client_id: '302886424414-okrk6c1pb8hg3ehuq62k0k1hp4qlsfai.apps.googleusercontent.com',          // required
               client_secret: '',      // required for response_type ="code"
               redirect_uri: redirect,       // required - any dummy url http://www.yourcompany.com
-              other_params: {scope: scopes}        // optional params object for scope, state, ...
+              other_params: {scope: scopes},        // optional params object for scope, state, ...
+              inapp: app
 
           // everything is successful, commense witchcraft
           }, function(token, response){
 
-                var vals = token.split('&');
-                var token = vals[0];
-                // Manually set token, from above.
-                gapi.auth.setToken({
-                    access_token: token
-                });
-
-                // load API (might change)
-                gapi.client.load('plus', 'v1').then(function(){
-                    // form request
-                    var request = gapi.client.plus.people.get({
-                        'userId': 'me'
-                    });
-                    // execute request
-                    request.then(function(resp){
-                        // just for demonstration purposes
-                        $('#subtitle').text('Welcome Back: ' + resp.result.displayName);
-
-                    // runs if something goes wrong
-                    }, function(reason) {
-                        console.log('Error: ' + reason.result.error.message);
-                    });
-                });
+                loadgapi(token);
 
           // Report and Errors in the sign in process
           }, function(error, response){
                 alert('error: ' + error);
           });
+        } catch(e) {
+          alert('error: ' + e);
+        }
       });
    },true);
 });
 
-
 // runs when the gapi script is fully loaded
 function handleGoogleLoad() {
     gapi.client.setApiKey(API_KEY);
+}
+
+function getUrlVars() {
+    var vars = {};
+      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+          vars[key] = value;
+      });
+      return vars;
+}
+
+function loadgapi(token) {
+    alert(token);
+    var vals = token.split('&');
+    var token = vals[0];
+    // Manually set token, from above.
+    gapi.auth.setToken({
+        access_token: token
+    });
+
+    // load API (might change)
+    gapi.client.load('plus', 'v1').then(function(){
+        // form request
+        var request = gapi.client.plus.people.get({
+            'userId': 'me'
+        });
+        // execute request
+        request.then(function(resp){
+            // just for demonstration purposes
+            $('#subtitle').text('Welcome Back: ' + resp.result.displayName);
+
+            // runs if something goes wrong
+        }, function(reason) {
+            console.log('Error: ' + reason.result.error.message);
+        });
+    });
 
 }
 
