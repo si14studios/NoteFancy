@@ -29,7 +29,7 @@ window.onload = function() {
     // only if just logged in
     if (window.location.hash.indexOf('access_token') > -1) {
         window.localStorage.setItem('token', getUrlVars()['access_token']);
-        window.location.href = 'http://localhost:8000';
+        window.location.href = window.location.origin;
     }
 }
 
