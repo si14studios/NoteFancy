@@ -1,35 +1,35 @@
 /*
- * cordova.oauth2.js - v0.1.1
- *
- * jQuery plugin to do Oauth2 login using either authorization code
- * grant or implicit grant method in a Cordova application
- *
- * Usage:
- *   $.oauth2(options, successCallback, errorCallback);
- *
- *   $.oauth2({
- *        auth_url: '',         // required
- *        response_type: '',    // required
- *        token_url: '',        // required if response_type = 'code'
- *        logout_url: '',       // recommended if available
- *        client_id: '',        // required
- *        client_secret: '',    // required if response_type = 'code'
- *        redirect_uri: '',     // required - some dummy url
- *        other_params: {}      // optional params object for scope, state, display...
- *    }, function(token, response){
- *          // do something with token and response
- *    }, function(error){
- *          // do something with error
- *    });
- *
- *
- *
- *
+* cordova.oauth2.js - v0.1.1
+*
+* jQuery plugin to do Oauth2 login using either authorization code
+* grant or implicit grant method in a Cordova application
+*
+* Usage:
+*   $.oauth2(options, successCallback, errorCallback);
+*
+*   $.oauth2({
+*        auth_url: '',         // required
+*        response_type: '',    // required
+*        token_url: '',        // required if response_type = 'code'
+*        logout_url: '',       // recommended if available
+*        client_id: '',        // required
+*        client_secret: '',    // required if response_type = 'code'
+*        redirect_uri: '',     // required - some dummy url
+*        other_params: {}      // optional params object for scope, state, display...
+*    }, function(token, response){
+*          // do something with token and response
+*    }, function(error){
+*          // do something with error
+*    });
+*
+*
+*
+*
 */
 
 (function($){
     $.oauth2 = function (options, successCallback, errorCallback) {
-
+        
         // checks if all the required oauth2 params are defined
         var checkOauth2Params = function(options){
             var missing = "";
@@ -124,7 +124,7 @@
                         errorCallback(error, url.split("?")[1]);
                     }
                 }
-            // if implicit method check for acces_token/error in url hash fragment
+                // if implicit method check for acces_token/error in url hash fragment
             } else if(options.response_type == "token") {
                 var access_token = url.split("access_token=")[1];
                 var error = url.split("error=")[1];
