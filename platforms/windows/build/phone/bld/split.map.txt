@@ -4,6 +4,8 @@
 
 [Files]
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\split.pri"			"resources.pri"
+"C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js"			"www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js"
+"C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js"			"www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\js\masonry.js"			"www\js\masonry.js"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\js\jquery.min.js"			"www\js\jquery.min.js"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\js\ink-all.min.js"			"www\js\ink-all.min.js"
@@ -86,6 +88,7 @@
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\fonts\fontawesome-webfont.eot"			"www\fonts\fontawesome-webfont.eot"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\css\ink.min.css"			"www\css\ink.min.css"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\css\index.css"			"www\css\index.css"
+"C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\css\inappbrowser.css"			"www\css\inappbrowser.css"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\css\font-awesome.min.css"			"www\css\font-awesome.min.css"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\cordova_plugins.js"			"www\cordova_plugins.js"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\cordova.js"			"www\cordova.js"

@@ -1,10 +1,6 @@
 /*
  * cordova.oauth2.js - v0.1.1
-<<<<<<< Updated upstream
- * 
-=======
  *
->>>>>>> Stashed changes
  * jQuery plugin to do Oauth2 login using either authorization code
  * grant or implicit grant method in a Cordova application
  *

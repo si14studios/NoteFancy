@@ -68,6 +68,11 @@
 							<Value>www\css\font-awesome.min.css</Value>
 						</Candidate>
 					</NamedResource>
+					<NamedResource name="inappbrowser.css" uri="ms-resource://com.si14studios.notefancy/Files/www/css/inappbrowser.css">
+						<Candidate type="Path">
+							<Value>www\css\inappbrowser.css</Value>
+						</Candidate>
+					</NamedResource>
 					<NamedResource name="index.css" uri="ms-resource://com.si14studios.notefancy/Files/www/css/index.css">
 						<Candidate type="Path">
 							<Value>www\css\index.css</Value>
@@ -485,6 +490,26 @@
 							<Value>www\js\masonry.js</Value>
 						</Candidate>
 					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="plugins">
+					<ResourceMapSubtree name="cordova-plugin-inappbrowser">
+						<ResourceMapSubtree name="src">
+							<ResourceMapSubtree name="windows">
+								<NamedResource name="InAppBrowserProxy.js" uri="ms-resource://com.si14studios.notefancy/Files/www/plugins/cordova-plugin-inappbrowser/src/windows/InAppBrowserProxy.js">
+									<Candidate type="Path">
+										<Value>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="www">
+							<NamedResource name="inappbrowser.js" uri="ms-resource://com.si14studios.notefancy/Files/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js">
+								<Candidate type="Path">
+									<Value>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
 				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 		</ResourceMapSubtree>

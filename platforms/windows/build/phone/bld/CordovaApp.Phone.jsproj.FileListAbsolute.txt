@@ -134,3 +134,6 @@ C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\file
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\main.map.txt
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\_pkginfo.txt
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\js\cordova.oauth2.js
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js
+C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\www\css\inappbrowser.css

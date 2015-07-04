@@ -75,8 +75,17 @@
     <AppxPackagedFile Include="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\www\js\masonry.js">
       <PackagePath>www\js\masonry.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\www\css\font-awesome.min.css">
       <PackagePath>www\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\www\css\inappbrowser.css">
+      <PackagePath>www\css\inappbrowser.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
