@@ -125,6 +125,7 @@ function getUrlVars() {
     return vars;
 }
 
+// Loads Goole API and updates DOM
 function loadgapi(token) {
 
     // Manually set token, from above.
