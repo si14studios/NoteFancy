@@ -1,21 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+<<<<<<< 53ee975b211ee005b153df0cbf3d2ea573a81c04
     <Machine>PETER-PC</Machine>
     <WindowsUser>Peter</WindowsUser>
+=======
+    <Machine>JOEFEDDEN-PC</Machine>
+    <WindowsUser>Joe</WindowsUser>
+>>>>>>> 2614c50b374c2e9b6caf6fffb1cdbb6ae97216dd
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>e80b0330-071d-11e5-8465-cfa1384ac5bb</PackageIdentityName>
+<<<<<<< 53ee975b211ee005b153df0cbf3d2ea573a81c04
     <IntermediateOutputPath>C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\debug\anycpu\AppxManifest.xml">
+=======
+    <IntermediateOutputPath>D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\build\phone\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\build\phone\debug\anycpu\AppxManifest.xml">
+>>>>>>> 2614c50b374c2e9b6caf6fffb1cdbb6ae97216dd
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< 53ee975b211ee005b153df0cbf3d2ea573a81c04
     <AppxPackagedFile Include="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -332,6 +345,324 @@
       <PackagePath>config.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\debug\anycpu\resources.pri">
+=======
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\images\SplashScreenPhone.scale-240.png">
+      <PackagePath>images\SplashScreenPhone.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\images\Square150x150Logo.scale-240.png">
+      <PackagePath>images\Square150x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\images\Square44x44Logo.scale-240.png">
+      <PackagePath>images\Square44x44Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\images\Square71x71Logo.scale-240.png">
+      <PackagePath>images\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\images\StoreLogo.scale-240.png">
+      <PackagePath>images\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\images\Wide310x150Logo.scale-240.png">
+      <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\img\logo.png">
+      <PackagePath>www\img\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\img\NFlogo.png">
+      <PackagePath>www\img\NFlogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\about\index.css">
+      <PackagePath>www\about\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\css\font-awesome.min.css">
+      <PackagePath>www\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\css\ink.min.css">
+      <PackagePath>www\css\ink.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\about\index.html">
+      <PackagePath>www\about\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\about\index.js">
+      <PackagePath>www\about\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\js\autoload.js">
+      <PackagePath>www\js\autoload.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\js\cordova.oauth2.js">
+      <PackagePath>www\js\cordova.oauth2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\js\holder.js">
+      <PackagePath>www\js\holder.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\js\index.js">
+      <PackagePath>www\js\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\js\ink-all.min.js">
+      <PackagePath>www\js\ink-all.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\js\jquery.min.js">
+      <PackagePath>www\js\jquery.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\js\masonry.js">
+      <PackagePath>www\js\masonry.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\fontawesome-webfont.eot">
+      <PackagePath>www\fonts\fontawesome-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-black-webfont.eot">
+      <PackagePath>www\fonts\Roboto\roboto-black-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-blackitalic-webfont.eot">
+      <PackagePath>www\fonts\Roboto\roboto-blackitalic-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-bold-webfont.eot">
+      <PackagePath>www\fonts\Roboto\roboto-bold-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-bolditalic-webfont.eot">
+      <PackagePath>www\fonts\Roboto\roboto-bolditalic-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-italic-webfont.eot">
+      <PackagePath>www\fonts\Roboto\roboto-italic-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-light-webfont.eot">
+      <PackagePath>www\fonts\Roboto\roboto-light-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-lightitalic-webfont.eot">
+      <PackagePath>www\fonts\Roboto\roboto-lightitalic-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-medium-webfont.eot">
+      <PackagePath>www\fonts\Roboto\roboto-medium-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-mediumitalic-webfont.eot">
+      <PackagePath>www\fonts\Roboto\roboto-mediumitalic-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-regular-webfont.eot">
+      <PackagePath>www\fonts\Roboto\roboto-regular-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-thin-webfont.eot">
+      <PackagePath>www\fonts\Roboto\roboto-thin-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-thinitalic-webfont.eot">
+      <PackagePath>www\fonts\Roboto\roboto-thinitalic-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-bold-webfont.eot">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-bold-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-bolditalic-webfont.eot">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-bolditalic-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-italic-webfont.eot">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-italic-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-light-webfont.eot">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-light-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-lightitalic-webfont.eot">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-lightitalic-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-regular-webfont.eot">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-regular-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_slab\robotoslab-bold-webfont.eot">
+      <PackagePath>www\fonts\Roboto_slab\robotoslab-bold-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_slab\robotoslab-light-webfont.eot">
+      <PackagePath>www\fonts\Roboto_slab\robotoslab-light-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_slab\robotoslab-regular-webfont.eot">
+      <PackagePath>www\fonts\Roboto_slab\robotoslab-regular-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_slab\robotoslab-thin-webfont.eot">
+      <PackagePath>www\fonts\Roboto_slab\robotoslab-thin-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\fontawesome-webfont.ttf">
+      <PackagePath>www\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-black-webfont.ttf">
+      <PackagePath>www\fonts\Roboto\roboto-black-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-blackitalic-webfont.ttf">
+      <PackagePath>www\fonts\Roboto\roboto-blackitalic-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-bold-webfont.ttf">
+      <PackagePath>www\fonts\Roboto\roboto-bold-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-bolditalic-webfont.ttf">
+      <PackagePath>www\fonts\Roboto\roboto-bolditalic-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-italic-webfont.ttf">
+      <PackagePath>www\fonts\Roboto\roboto-italic-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-light-webfont.ttf">
+      <PackagePath>www\fonts\Roboto\roboto-light-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-lightitalic-webfont.ttf">
+      <PackagePath>www\fonts\Roboto\roboto-lightitalic-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-medium-webfont.ttf">
+      <PackagePath>www\fonts\Roboto\roboto-medium-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-mediumitalic-webfont.ttf">
+      <PackagePath>www\fonts\Roboto\roboto-mediumitalic-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-regular-webfont.ttf">
+      <PackagePath>www\fonts\Roboto\roboto-regular-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-thin-webfont.ttf">
+      <PackagePath>www\fonts\Roboto\roboto-thin-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-thinitalic-webfont.ttf">
+      <PackagePath>www\fonts\Roboto\roboto-thinitalic-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-bold-webfont.ttf">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-bold-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-bolditalic-webfont.ttf">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-bolditalic-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-italic-webfont.ttf">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-italic-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-light-webfont.ttf">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-light-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-lightitalic-webfont.ttf">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-lightitalic-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-regular-webfont.ttf">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-regular-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_slab\robotoslab-bold-webfont.ttf">
+      <PackagePath>www\fonts\Roboto_slab\robotoslab-bold-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_slab\robotoslab-light-webfont.ttf">
+      <PackagePath>www\fonts\Roboto_slab\robotoslab-light-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_slab\robotoslab-regular-webfont.ttf">
+      <PackagePath>www\fonts\Roboto_slab\robotoslab-regular-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_slab\robotoslab-thin-webfont.ttf">
+      <PackagePath>www\fonts\Roboto_slab\robotoslab-thin-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\fontawesome-webfont.woff">
+      <PackagePath>www\fonts\fontawesome-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-black-webfont.woff">
+      <PackagePath>www\fonts\Roboto\roboto-black-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-blackitalic-webfont.woff">
+      <PackagePath>www\fonts\Roboto\roboto-blackitalic-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-bold-webfont.woff">
+      <PackagePath>www\fonts\Roboto\roboto-bold-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-bolditalic-webfont.woff">
+      <PackagePath>www\fonts\Roboto\roboto-bolditalic-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-italic-webfont.woff">
+      <PackagePath>www\fonts\Roboto\roboto-italic-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-light-webfont.woff">
+      <PackagePath>www\fonts\Roboto\roboto-light-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-lightitalic-webfont.woff">
+      <PackagePath>www\fonts\Roboto\roboto-lightitalic-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-medium-webfont.woff">
+      <PackagePath>www\fonts\Roboto\roboto-medium-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-mediumitalic-webfont.woff">
+      <PackagePath>www\fonts\Roboto\roboto-mediumitalic-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-regular-webfont.woff">
+      <PackagePath>www\fonts\Roboto\roboto-regular-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-thin-webfont.woff">
+      <PackagePath>www\fonts\Roboto\roboto-thin-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto\roboto-thinitalic-webfont.woff">
+      <PackagePath>www\fonts\Roboto\roboto-thinitalic-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-bold-webfont.woff">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-bold-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-bolditalic-webfont.woff">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-bolditalic-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-italic-webfont.woff">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-italic-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-light-webfont.woff">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-light-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-lightitalic-webfont.woff">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-lightitalic-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_condensed\robotocondensed-regular-webfont.woff">
+      <PackagePath>www\fonts\Roboto_condensed\robotocondensed-regular-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_slab\robotoslab-bold-webfont.woff">
+      <PackagePath>www\fonts\Roboto_slab\robotoslab-bold-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_slab\robotoslab-light-webfont.woff">
+      <PackagePath>www\fonts\Roboto_slab\robotoslab-light-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_slab\robotoslab-regular-webfont.woff">
+      <PackagePath>www\fonts\Roboto_slab\robotoslab-regular-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\Roboto_slab\robotoslab-thin-webfont.woff">
+      <PackagePath>www\fonts\Roboto_slab\robotoslab-thin-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\www\fonts\FontAwesome.otf">
+      <PackagePath>www\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Github Repositories\NoteFancy\platforms\windows\build\phone\debug\anycpu\resources.pri">
+>>>>>>> 2614c50b374c2e9b6caf6fffb1cdbb6ae97216dd
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -12,10 +12,19 @@ images\StoreLogo.scale-100.png
 images\StoreLogo.scale-240.png
 images\Wide310x150Logo.scale-100.png
 images\Wide310x150Logo.scale-240.png
+<<<<<<< 53ee975b211ee005b153df0cbf3d2ea573a81c04
 www\cordova.js
 www\cordova_plugins.js
 www\css\font-awesome.min.css
 www\css\inappbrowser.css
+=======
+www\about\index.css
+www\about\index.html
+www\about\index.js
+www\cordova.js
+www\cordova_plugins.js
+www\css\font-awesome.min.css
+>>>>>>> 2614c50b374c2e9b6caf6fffb1cdbb6ae97216dd
 www\css\index.css
 www\css\ink.min.css
 www\fonts\FontAwesome.otf
@@ -98,5 +107,8 @@ www\js\index.js
 www\js\ink-all.min.js
 www\js\jquery.min.js
 www\js\masonry.js
+<<<<<<< 53ee975b211ee005b153df0cbf3d2ea573a81c04
 www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js
 www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js
+=======
+>>>>>>> 2614c50b374c2e9b6caf6fffb1cdbb6ae97216dd

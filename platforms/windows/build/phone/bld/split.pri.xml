@@ -62,6 +62,7 @@
 						<Value>www\index.html</Value>
 					</Candidate>
 				</NamedResource>
+<<<<<<< 53ee975b211ee005b153df0cbf3d2ea573a81c04
 				<ResourceMapSubtree name="css">
 					<NamedResource name="font-awesome.min.css" uri="ms-resource://com.si14studios.notefancy/Files/www/css/font-awesome.min.css">
 						<Candidate type="Path">
@@ -71,6 +72,29 @@
 					<NamedResource name="inappbrowser.css" uri="ms-resource://com.si14studios.notefancy/Files/www/css/inappbrowser.css">
 						<Candidate type="Path">
 							<Value>www\css\inappbrowser.css</Value>
+=======
+				<ResourceMapSubtree name="about">
+					<NamedResource name="index.css" uri="ms-resource://com.si14studios.notefancy/Files/www/about/index.css">
+						<Candidate type="Path">
+							<Value>www\about\index.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="index.html" uri="ms-resource://com.si14studios.notefancy/Files/www/about/index.html">
+						<Candidate type="Path">
+							<Value>www\about\index.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="index.js" uri="ms-resource://com.si14studios.notefancy/Files/www/about/index.js">
+						<Candidate type="Path">
+							<Value>www\about\index.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="css">
+					<NamedResource name="font-awesome.min.css" uri="ms-resource://com.si14studios.notefancy/Files/www/css/font-awesome.min.css">
+						<Candidate type="Path">
+							<Value>www\css\font-awesome.min.css</Value>
+>>>>>>> 2614c50b374c2e9b6caf6fffb1cdbb6ae97216dd
 						</Candidate>
 					</NamedResource>
 					<NamedResource name="index.css" uri="ms-resource://com.si14studios.notefancy/Files/www/css/index.css">
@@ -491,6 +515,7 @@
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
+<<<<<<< 53ee975b211ee005b153df0cbf3d2ea573a81c04
 				<ResourceMapSubtree name="plugins">
 					<ResourceMapSubtree name="cordova-plugin-inappbrowser">
 						<ResourceMapSubtree name="src">
@@ -511,6 +536,8 @@
 						</ResourceMapSubtree>
 					</ResourceMapSubtree>
 				</ResourceMapSubtree>
+=======
+>>>>>>> 2614c50b374c2e9b6caf6fffb1cdbb6ae97216dd
 			</ResourceMapSubtree>
 		</ResourceMapSubtree>
 	</ResourceMap>

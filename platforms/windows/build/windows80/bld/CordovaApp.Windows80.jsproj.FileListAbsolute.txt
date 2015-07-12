@@ -1,3 +1,4 @@
+<<<<<<< 53ee975b211ee005b153df0cbf3d2ea573a81c04
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\windows80\debug\anycpu\resources.pri
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\windows80\debug\anycpu\AppxManifest.xml
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\windows80\debug\anycpu\CordovaApp.Windows80.build.appxrecipe
@@ -15,3 +16,22 @@ C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\windows80\bld\
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\windows80\bld\ProjectArchitectures.txt
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\windows80\bld\package.map.txt
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\windows80\bld\_pkginfo.txt
+=======
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\debug\anycpu\resources.pri
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\debug\anycpu\AppxManifest.xml
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\debug\anycpu\CordovaApp.Windows80.build.appxrecipe
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\priconfig.xml
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\priconfig.xml.intermediate
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\layout.resfiles
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\layout.resfiles.intermediate
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\resources.resfiles
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\resources.resfiles.intermediate
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\pri.resfiles
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\pri.resfiles.intermediate
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\qualifiers.txt
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\qualifiers.txt.intermediate
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\MultipleQualifiersPerDimensionFound.txt
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\ProjectArchitectures.txt
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\package.map.txt
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\windows80\bld\_pkginfo.txt
+>>>>>>> 2614c50b374c2e9b6caf6fffb1cdbb6ae97216dd

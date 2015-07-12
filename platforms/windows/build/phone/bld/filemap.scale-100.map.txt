@@ -3,6 +3,7 @@
 "ResourceDimensions"		"scale-100"
 
 [Files]
+<<<<<<< 53ee975b211ee005b153df0cbf3d2ea573a81c04
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\filemap.scale-100.pri"			"resources.pri"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\images\Wide310x150Logo.scale-100.png"			"images\Wide310x150Logo.scale-100.png"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\images\StoreLogo.scale-100.png"			"images\StoreLogo.scale-100.png"
@@ -11,3 +12,13 @@
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\images\Square30x30Logo.scale-100.png"			"images\Square30x30Logo.scale-100.png"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\images\Square150x150Logo.scale-100.png"			"images\Square150x150Logo.scale-100.png"
 "C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\images\SplashScreen.scale-100.png"			"images\SplashScreen.scale-100.png"
+=======
+"D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\phone\bld\filemap.scale-100.pri"			"resources.pri"
+"D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\images\Wide310x150Logo.scale-100.png"			"images\Wide310x150Logo.scale-100.png"
+"D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\images\StoreLogo.scale-100.png"			"images\StoreLogo.scale-100.png"
+"D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\images\Square70x70Logo.scale-100.png"			"images\Square70x70Logo.scale-100.png"
+"D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\images\Square310x310Logo.scale-100.png"			"images\Square310x310Logo.scale-100.png"
+"D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\images\Square30x30Logo.scale-100.png"			"images\Square30x30Logo.scale-100.png"
+"D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\images\Square150x150Logo.scale-100.png"			"images\Square150x150Logo.scale-100.png"
+"D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\phone\bld\PackageLayout\images\SplashScreen.scale-100.png"			"images\SplashScreen.scale-100.png"
+>>>>>>> 2614c50b374c2e9b6caf6fffb1cdbb6ae97216dd

@@ -1,2 +1,7 @@
+<<<<<<< 53ee975b211ee005b153df0cbf3d2ea573a81c04
 MainPackage=C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\debug\anycpu\CordovaApp.Phone_0.0.1.0_Bundle\CordovaApp.Phone_0.0.1.0_anycpu_debug.appx
 ResourcePack=C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\build\phone\debug\anycpu\CordovaApp.Phone_0.0.1.0_Bundle\CordovaApp.Phone_0.0.1.0_scale-100.appx
+=======
+MainPackage=D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\phone\debug\anycpu\CordovaApp.Phone_0.0.1.0_Bundle\CordovaApp.Phone_0.0.1.0_anycpu_debug.appx
+ResourcePack=D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\build\phone\debug\anycpu\CordovaApp.Phone_0.0.1.0_Bundle\CordovaApp.Phone_0.0.1.0_scale-100.appx
+>>>>>>> 2614c50b374c2e9b6caf6fffb1cdbb6ae97216dd

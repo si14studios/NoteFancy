@@ -1,1 +1,5 @@
+<<<<<<< 53ee975b211ee005b153df0cbf3d2ea573a81c04
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\windows\AppPackages\CordovaApp.Windows80_0.0.1.0_anycpu_debug_Test\CordovaApp.Windows80_0.0.1.0_anycpu_debug.appx
+=======
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\windows\AppPackages\CordovaApp.Windows80_0.0.1.0_anycpu_debug_Test\CordovaApp.Windows80_0.0.1.0_anycpu_debug.appx
+>>>>>>> 2614c50b374c2e9b6caf6fffb1cdbb6ae97216dd

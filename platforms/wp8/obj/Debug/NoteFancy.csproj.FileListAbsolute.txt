@@ -1,3 +1,4 @@
+<<<<<<< 53ee975b211ee005b153df0cbf3d2ea573a81c04
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Bin\Debug\ApplicationIcon.png
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Bin\Debug\Background.png
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\Bin\Debug\com.si14studios.notefancy.dll
@@ -12,3 +13,19 @@ C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\obj\Debug\com.si14studio
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\obj\Debug\com.si14studios.notefancy.dll
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\obj\Debug\com.si14studios.notefancy.pdb
 C:\Users\Peter\Documents\GitHub\NoteFancy\platforms\wp8\obj\Debug\XapCacheFile.xml
+=======
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\Bin\Debug\ApplicationIcon.png
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\Bin\Debug\Background.png
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\Bin\Debug\com.si14studios.notefancy.dll
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\Bin\Debug\com.si14studios.notefancy.pdb
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\Bin\Debug\AppManifest.xaml
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\Bin\Debug\com.si14studios.notefancy.xap
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\obj\Debug\App.g.cs
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\obj\Debug\MainPage.g.cs
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\obj\Debug\com.si14studios.notefancy.g.resources
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\obj\Debug\com.si14studios.notefancy.dll
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\obj\Debug\com.si14studios.notefancy.pdb
+D:\Program Files (x86)\Github Repositories\NoteFancy\platforms\wp8\obj\Debug\XapCacheFile.xml
+>>>>>>> 2614c50b374c2e9b6caf6fffb1cdbb6ae97216dd
