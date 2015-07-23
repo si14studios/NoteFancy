@@ -110,7 +110,6 @@ $( document ).ready(function() {
         });
     },true);
 });
-<<<<<<< 53ee975b211ee005b153df0cbf3d2ea573a81c04
 
 // runs when the gapi script is fully loaded
 function handleGoogleLoad() {
@@ -151,5 +150,3 @@ function loadgapi(token) {
         });
     });
 }
-=======
->>>>>>> 2614c50b374c2e9b6caf6fffb1cdbb6ae97216dd
